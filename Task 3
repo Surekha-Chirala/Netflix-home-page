@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">StreamFlix</a>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+      <button class="sign-in">Sign In</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="hero-image.jpg" alt="Hero Image">
+    </section>
+
+    <section class="popular-shows">
+      <h2>Popular Shows</h2>
+      <div class="shows-container">
+        <div class="show">
+          <img src="show1.jpg" alt="Show 1">
+          <div class="show-info">
+            <h3>Show Title 1</h3>
+            <p>Genre: Drama, Comedy</p>
+          </div>
+        </div>
+
+        <div class="show">
+          <img src="show2.jpg" alt="Show 2">
+          <div class="show-info">
+            <h3>Show Title 2</h3>
+            <p>Genre: Action, Adventure</p>
+          </div>
+        </div>
+
+        <div class="show">
+          <img src="show3.jpg" alt="Show 3">
+          <div class="show-info">
+            <h3>Show Title 3</h3>
+            <p>Genre: Sci-Fi, Fantasy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-releases">
+      <h2>New Releases</h2>
+      <div class="releases-container">
+        <div class="release">
+          <img src="release1.jpg" alt="Release 1">
+          <div class="release-info">
+            <h3>Movie Title 1</h3>
+            <p>Release Year: 2023</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="release2.jpg" alt="Release 2">
+          <div class="release-info">
+            <h3>Movie Title 2</h3>
+            <p>Release Year: 2022</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="release3.jpg" alt="Release 3">
+          <div class="release-info">
+            <h3>Movie Title 3</h3>
+            <p>Release Year: 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 StreamFlix</p>
+  </footer>
+</body>
+</html>
